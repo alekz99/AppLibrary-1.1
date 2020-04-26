@@ -1,0 +1,12 @@
+C:\Users\1\source\repos\AppLib\AppLib\bin\Debug\AppLib.exe.config
+C:\Users\1\source\repos\AppLib\AppLib\bin\Debug\AppLib.exe
+C:\Users\1\source\repos\AppLib\AppLib\bin\Debug\AppLib.pdb
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.csprojAssemblyReference.cache
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.MainForm.resources
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.csproj.GenerateResource.cache
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.exe
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.pdb
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.AddForm.resources
+C:\Users\1\source\repos\AppLib\AppLib\obj\Debug\AppLib.DeleteForm.resources

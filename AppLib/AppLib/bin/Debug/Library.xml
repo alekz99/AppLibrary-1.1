@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BookCollection>
+  <Book>
+    <IdCard>0</IdCard>
+    <LastName>Заплатин</LastName>
+    <DataOfIssue>19.03.2020</DataOfIssue>
+    <DataReturn>30</DataReturn>
+    <Author>Виктор Пелевин</Author>
+    <NameBook>S.N.U.F.F.</NameBook>
+    <YearOfPublishing>2011</YearOfPublishing>
+    <PublishingHouse>Азбука-Аттикус</PublishingHouse>
+    <Price>450</Price>
+  </Book>
+  <Book>
+    <IdCard>1</IdCard>
+    <LastName>Заплатин</LastName>
+    <DataOfIssue>20.04.2020</DataOfIssue>
+    <DataReturn>30</DataReturn>
+    <Author>Стендаль</Author>
+    <NameBook>Красное и черное</NameBook>
+    <YearOfPublishing>1992</YearOfPublishing>
+    <PublishingHouse>Искусство</PublishingHouse>
+    <Price>250</Price>
+  </Book>
+  <Book>
+    <IdCard>2</IdCard>
+    <LastName>Сухомлинов</LastName>
+    <DataOfIssue>25.11.2019</DataOfIssue>
+    <DataReturn>20</DataReturn>
+    <Author>Виктор Пелевин</Author>
+    <NameBook>Чапаев и пустота</NameBook>
+    <YearOfPublishing>2008</YearOfPublishing>
+    <PublishingHouse>Мир книг</PublishingHouse>
+    <Price>300</Price>
+  </Book>
+  <Book>
+    <IdCard>3</IdCard>
+    <LastName>Кузнецов</LastName>
+    <DataOfIssue>26.04.2020</DataOfIssue>
+    <DataReturn>14</DataReturn>
+    <Author>Эдуард Успенский</Author>
+    <NameBook>Зима в Простоквашино</NameBook>
+    <YearOfPublishing>2001</YearOfPublishing>
+    <PublishingHouse>Самовар</PublishingHouse>
+    <Price>100</Price>
+  </Book>
+  <Book>
+    <IdCard>4</IdCard>
+    <LastName>Кузнецов</LastName>
+    <DataOfIssue>26.04.2020</DataOfIssue>
+    <DataReturn>20</DataReturn>
+    <Author>Эдуард Успенский</Author>
+    <NameBook>Каникулы в Простоквашино</NameBook>
+    <YearOfPublishing>2004</YearOfPublishing>
+    <PublishingHouse>Самовар</PublishingHouse>
+    <Price>100</Price>
+  </Book>
+  <Book>
+    <IdCard>5</IdCard>
+    <LastName>Заплатин</LastName>
+    <DataOfIssue>15.03.2018</DataOfIssue>
+    <DataReturn>30</DataReturn>
+    <Author>Гулиа</Author>
+    <NameBook>Удивительная физика</NameBook>
+    <YearOfPublishing>2014</YearOfPublishing>
+    <PublishingHouse>ЭНАС-КНИГА</PublishingHouse>
+    <Price>449</Price>
+  </Book>
+</BookCollection>
