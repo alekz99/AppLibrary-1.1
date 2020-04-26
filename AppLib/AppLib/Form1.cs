@@ -112,7 +112,7 @@ namespace AppLib
 		}
         
 
-                public void loadFromXML(string xmlPath)
+        public void loadFromXML(string xmlPath)
 		{
 			XDocument doc;
 
