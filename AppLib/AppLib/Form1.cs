@@ -96,30 +96,9 @@ namespace AppLib
 
 		private void MainForm_Load(object sender, EventArgs e)
 		{
-			XDocument doc = XDocument.Load(fileName);
 			try
 			{
-				foreach (XElement el in doc.Root.Elements())
-				{
-					if (!CheckValue(
-						el.Element("IdCard").Value,
-						el.Element("DataReturn").Value,
-						el.Element("YearOfPublishing").Value,
-						el.Element("Price").Value,
-						el.Element("DataOfIssue").Value,
-						el.Element("LastName").Value,
-						el.Element("NameBook").Value,
-						el.Element("Author").Value,
-						el.Element("PublishingHouse").Value))
-					{
-						throw new Exception();
-					}
-					var row = new string[] {el.Element("IdCard").Value, el.Element("LastName").Value, el.Element("DataOfIssue").Value,
-						el.Element("DataReturn").Value, el.Element("Author").Value, el.Element("NameBook").Value,
-						el.Element("YearOfPublishing").Value, el.Element("PublishingHouse").Value, el.Element("Price").Value};
-					var lvi = new ListViewItem(row);
-					listViewBooks.Items.Add(lvi);
-				}
+				loadFromXML(fileName);
 			}
 			catch
 			{
@@ -131,6 +110,44 @@ namespace AppLib
 				Close();
 			}
 		}
+        
+
+                public void loadFromXML(string xmlPath)
+		{
+			XDocument doc;
+
+			try
+			{
+				doc = XDocument.Load(xmlPath);
+			}
+			catch
+			{
+				throw new ArgumentException();
+			}
+
+			foreach (XElement el in doc.Root.Elements())
+			{
+				if (!CheckValue(
+					el.Element("IdCard").Value,
+					el.Element("DataReturn").Value,
+					el.Element("YearOfPublishing").Value,
+					el.Element("Price").Value,
+					el.Element("DataOfIssue").Value,
+					el.Element("LastName").Value,
+					el.Element("NameBook").Value,
+					el.Element("Author").Value,
+					el.Element("PublishingHouse").Value))
+				{
+					throw new Exception();
+				}
+				var row = new string[] {el.Element("IdCard").Value, el.Element("LastName").Value, el.Element("DataOfIssue").Value,
+						el.Element("DataReturn").Value, el.Element("Author").Value, el.Element("NameBook").Value,
+						el.Element("YearOfPublishing").Value, el.Element("PublishingHouse").Value, el.Element("Price").Value};
+				var lvi = new ListViewItem(row);
+				listViewBooks.Items.Add(lvi);
+			}
+		}
+
 
 		private void button_Find_Click(object sender, EventArgs e)
 		{
